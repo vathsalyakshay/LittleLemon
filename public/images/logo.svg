@@ -1,0 +1,17 @@
+<svg width="200" height="60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-text { font-family: 'Markazi Text', Georgia, serif; font-weight: 500; }
+      .lemon { fill: #F4CE14; }
+      .text { fill: #495E57; }
+    </style>
+  </defs>
+  
+  <!-- Lemon icon -->
+  <circle cx="25" cy="30" r="18" class="lemon"/>
+  <ellipse cx="25" cy="30" rx="10" ry="15" fill="#495E57" opacity="0.1"/>
+  <path d="M 25 15 Q 30 12, 35 15" stroke="#495E57" stroke-width="2" fill="none"/>
+  
+  <!-- Text -->
+  <text x="50" y="35" class="logo-text text" font-size="24">Little Lemon</text>
+</svg>
